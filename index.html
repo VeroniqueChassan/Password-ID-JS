@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script1.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>PASSWORD-ID</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>StudyTonight</h1>  
+
+        <div id="button-box">
+            <button id="new-member">New-member</button>  
+            <button id="already-member">Already-member</button>
+        </div>
+
+        <div class="sub-container1">
+            <h3> Create password and id </h3>   
+            <h3> Must contain at least one number and one uppercase and one lowercase letter, and at least 8 or more characters"</h3>
+
+        
+            <form id="form1" action ="">  
+                <td> Enter Username</td>
+                <input type = "username" id = "username" value = "">
+                <br><br> 
+                <td> Enter Password </td>  
+                <input type = "password" id = "password" value = "">   
+                <!-- <span id = "message"> </span> <br><br>      -->
+                <br><br> 
+            
+                <button id = "submit-btn">Submit </button>  
+                <p id="connectionStatus"></p>
+            </form>  
+
+            <div id="message">
+                <h3>Password must contain the following:</h3>
+                <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+                <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+                <p id="number" class="invalid">A <b>number</b></p>
+                <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+            </div>
+        </div>
+
+        <div class="sub-container2">
+            <h3> Please login </h3> 
+            <h3> Validate password - validate login</h3>    
+            <form id="form2" action ="">  
+                <td> Enter Username</td>
+                <input type = "username" id = "username2" value = "">
+                <br><br> 
+                <td> Enter Password </td>  
+                <input type = "password" id = "password2" value = "">   
+                <!-- <span id = "message"> </span> <br><br>      -->
+                <br><br> 
+                <button id = "submit-btn2" >Submit </button>  
+                <p id="loginStatus"></p>
+                <h3 id="successfull-login"></h3>
+            </form>  
+
+        </div>
+    </div>
+</body>
+</html>

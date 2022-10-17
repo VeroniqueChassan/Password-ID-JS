@@ -1,0 +1,61 @@
+body {
+display: flex;
+ justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: burlywood;
+    width: 60vw;
+    justify-content: center;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+ 
+}
+
+#button-box {
+    margin: 2rem;
+    justify-content: space-evenly;
+}
+
+.sub-container1 {
+    display: none;
+}
+
+.sub-container2 {
+    display: none;
+}
+/* .sub-container1-show {
+    display: block;
+}
+
+.sub-container2-show {
+    display: block;
+} */
+
+/* PASSWORD CHECK **************************************************************/
+#message {
+    display: none;
+}
+
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content:"✅";
+  }
+
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "❌";
+  }
